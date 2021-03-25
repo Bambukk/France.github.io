@@ -1,0 +1,358 @@
+.container1{
+font-family:cursive;
+color:#A52A2A;
+border:;
+height:900px;
+
+
+}
+
+/*Голова*/
+.header {
+background-color:E5E5E5;
+
+height: 150px;
+float:top;
+
+}
+.men {min-width:1025px;
+margin-left:15%;
+width:70%;
+margin-right:15%;
+background-color:E5E5E5;
+height:90%;
+}
+.gol>ul li a{
+	display:block;
+	padding:15px 50px;
+
+}
+
+*{
+  //  border:solid red 3px;
+}
+
+.menuclass {
+    height:450px;
+}
+
+li>div {
+    display:none;
+    position:absolute;
+}
+
+li:hover div {
+    display:block;
+}
+
+/*Меню*/
+.menuclass *{ font-family: monospace;
+font-size:120%;
+	margin:0 auto;
+	padding:0;
+}
+.gol { 
+    margin:0 auto;
+	margin-bottom:100px;
+}
+
+.gol>ul { display:flex;
+	list-style:none;
+
+}
+.gol>ul>li:first-child {
+	border-left: 1px grey solid;
+}
+.gol >ul>li:last-child {
+	border-right: 1px grey solid;
+}
+
+}
+.gol>ul>li:hover {
+	background-color:E5E5E5;
+	color:fffff;
+	color:white;
+	transition:all 0.3s ease;
+}
+.fa:hover{
+	background-color:E5E5E5;
+	color:white;
+	transition:all 0.3s ease;
+	}
+.gol >li ul {
+min-width:100px;
+display:none;
+
+}
+.gol li > ul li {
+	border: 1px solid black;
+
+}
+.gol li > ul li a{
+	padding:10px;
+	text-transform:none;
+	background:grey;
+}
+.gol li:hover > ul{
+	display:block;
+}
+.bav{
+	color:black;
+	font-size:100%;
+
+}
+img {
+	margin:10px;
+}
+h1 a:hover {
+	background-color:grey;
+	color:purple;
+	
+	
+}
+/*пцпц*/
+a {transition:all 0.3s ease;
+	color:orange;
+	text-decoration: none;
+}
+
+
+
+
+.h2 {
+	color:black;
+	text-align:center;
+}
+.maga {
+	width:800px;
+	height:400px;
+
+}
+
+.mod {
+	margin:0 auto;
+	//height: 4550px;
+	width:80%;
+	color:#444444;
+	font-family:Georgia;
+	
+
+
+
+}
+
+.h6 {
+	color:purple;
+}
+.h {
+	text-align:center;
+	font-family:cursive;
+
+}
+.h22 { margin-top:100px;
+	text-align:center;
+	font-family:cursive;
+}
+p { margin-left:10px;
+margin-right:10px;
+	font-size:150%;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+}
+.image_vrite {
+	width:
+	550px;
+	height:350px;
+float:right;
+margin-right:10px;
+}
+.image_leg {
+	float:left;
+	margin-left:10px;
+	width:550px;
+}
+li {
+	font-size:150%;
+	font-family: emoji;
+}
+div ul li a:hover {
+	color:red;
+}
+
+
+
+
+
+
+
+
+.yakor {
+min-width:80px;
+width:80px;
+height:50px;
+	float:left;
+margin-left:382px;
+	
+
+}
+.beb { margin-right:300px;
+margin-top:100px;
+	text-align:center;
+	font-family:cursive;
+}
+.bab {  width:80%;
+height:220px;
+	background-color:C4C4C4;
+	margin:0 auto;
+	min-width:700px;
+	//min-height:220px;
+
+}
+.amer { 
+height:150px;
+	min-width:200px;
+	
+}
+
+
+
+.hah {
+	color:purple;
+
+}
+
+.pod { 
+	//display:block;
+	height:102px;
+	width:94px;
+	padding-left:20px;
+	margin:20px;
+	float:left;
+	}
+.kar {
+	//display:block;
+	height:102px;
+	width:99px;
+	margin:20px;
+	float:left;
+}
+.mak {
+	//display:block;
+	height:105px;
+	width:99px;
+	margin:20px;
+	float:left;
+}
+
+.sec {
+	width:450px;
+	margin:0 auto;
+}
+.slider{
+    max-width: 1000%;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    /* Центрируем по горизонтали: */
+    margin: auto;
+    height: 1100px;
+}
+
+/* Картинка масштабируется по отношению к родительскому элементу: */
+.slider .item img {
+    /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+}
+
+/* Кнопки назад и вперёд: */
+.slider .previous, .slider .next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    position: absolute;
+    top: 34%;
+    width: auto;
+    margin-top: -22px;
+    padding: 10px;
+    /* Оформление самих кнопок: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора на кнопки добавляем фон кнопок: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Анимация слайдов: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+.unnamed {
+margin:10px;
+width:500px;
+height:450px;
+	
+}
+.moda {
+margin-top:10px;
+	margin-left:105px;
+	margin-right:105px;
+	margin-bottom:10px;
+}
+li div a:hover {
+	background-color:grey;
+	transition: 0.6s ease;
+	
+}
+.calav { margin-top:0px;
+	margin-left:10px;
+	margin-right:10px;
+	width:600px;
+	float:right;
+}
+
+
+.hhh {
+	margin-left:40px;
+	text-align:left;
+font-family:cursive;}
+.hhh1 {margin-top:100px;
+	margin-right:60px;
+	text-align:right;
+font-family:cursive;
+}
+.malav {
+	margin-top:0px;
+	margin-left:10px;
+	margin-right:10px;
+	width:600px;
+	float:left;
+}
+.m {display:block;
+	margin:0 auto;
+	width:700px;
+	height:500px;
+}
